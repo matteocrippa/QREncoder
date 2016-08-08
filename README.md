@@ -1,6 +1,6 @@
 # QREncoder
 
-[![CI Status](http://img.shields.io/travis/Matteo/QREncoder.svg?style=flat)](https://travis-ci.org/Matteo/QREncoder)
+[![CI Status](http://img.shields.io/travis/matteocrippa/QREncoder.svg?style=flat)](https://travis-ci.org/matteocrippa/QREncoder)
 [![Version](https://img.shields.io/cocoapods/v/QREncoder.svg?style=flat)](http://cocoapods.org/pods/QREncoder)
 [![License](https://img.shields.io/cocoapods/l/QREncoder.svg?style=flat)](http://cocoapods.org/pods/QREncoder)
 [![Platform](https://img.shields.io/cocoapods/p/QREncoder.svg?style=flat)](http://cocoapods.org/pods/QREncoder)
@@ -22,7 +22,7 @@ pod "QREncoder"
 
 ## Author
 
-Matteo, matteo@boostco.de
+Matteo Crippa, @ghego20
 
 ## License
 

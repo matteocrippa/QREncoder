@@ -1,0 +1,16 @@
+PODS:
+  - QREncoder (0.1.0)
+
+DEPENDENCIES:
+  - QREncoder (from `../`)
+
+EXTERNAL SOURCES:
+  QREncoder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QREncoder: 368b681c15ae58a60b3db50e0480702bb63ed83f
+
+PODFILE CHECKSUM: 635a68078c2be4ff0bf9fc8a4617801325190ddc
+
+COCOAPODS: 1.0.1

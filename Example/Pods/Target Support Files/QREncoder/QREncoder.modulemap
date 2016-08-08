@@ -1,0 +1,6 @@
+framework module QREncoder {
+  umbrella header "QREncoder-umbrella.h"
+
+  export *
+  module * { export * }
+}
