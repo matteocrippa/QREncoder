@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QREncoder_Example' do
+  pod 'QREncoder', :path => '../'
+
+  target 'QREncoder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
