@@ -1,22 +1,25 @@
 {
   "name": "QREncoder",
   "version": "0.1.0",
-  "summary": "A short description of QREncoder.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/QREncoder",
+  "summary": "QRCode generator.",
+  "description": "Easy to use QRCode generator with support for AppleTv.",
+  "homepage": "https://github.com/matteocrippa/QREncoder",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Matteo": "matteo@boostco.de"
+    "Matteo Crippa": ""
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/QREncoder.git",
+    "git": "https://github.com/matteocrippa/QREncoder.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/ghego20",
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.0",
+    "tvos": "9.0"
   },
-  "source_files": "QREncoder/Classes/**/*"
+  "source_files": "QREncoder/Classes/**/*",
+  "frameworks": "CoreImage"
 }

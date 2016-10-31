@@ -2,7 +2,7 @@ import CoreImage
 
 public extension String {
     var qrCode: UIImage {
-        let data = self.dataUsingEncoding(NSISOLatin1StringEncoding, allowLossyConversion: false)
+        let data = self.data(using: String.Encoding.isoLatin1, allowLossyConversion: false)
         
         guard let filter = CIFilter(name: "CIQRCodeGenerator") else { return UIImage() }
         
@@ -11,6 +11,6 @@ public extension String {
         
         guard let image = filter.outputImage else { return UIImage() }
         
-        return UIImage(CIImage: image)
+        return UIImage(ciImage: image)
     }
 }
